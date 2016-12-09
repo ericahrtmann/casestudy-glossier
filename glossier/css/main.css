@@ -95,7 +95,254 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  
+html {
+      box-sizing: border-box;
+   }
+
+*, *:before, *:after {
+      box-sizing: inherit;
+   }
+
+.page-header {
+    margin: 0;
+    background-color: #f3f6f6;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 7%;
+  }
+
+.page-header img {
+    width: 1%;
+    position: fixed;
+    left: 50%;
+    padding-top: 1em;
+  }
+
+.page-header h4 {
+    float: right;
+    padding-right: 3em;
+    font-family: "Apercu", Calibri, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #000;
+    font-size: .9em;
+  }
+
+.page-header a {
+    text-decoration: none;
+  }
+
+.page-header a:hover {
+    color: blue;
+  }
+
+.intro {
+    position: fixed;
+    width: 100%;
+    height: 7%;
+}
+
+.intro h1 {
+    position: fixed;
+    left: 44%;
+    font-style: italic;
+    font-size: 2.5em;
+    padding-top: .7em;
+    font-family: "Apercu", Calibri, sans-serif;
+  }
+
+  .intro p {
+    float: right;
+    position: relative;
+    padding: .7em;
+    margin-top: 4.5em;
+    font-family: "Apercu", Calibri, sans-serif;
+    font-weight: bold;
+    font-size: .8em;
+    background-color: #f5e3e7;
+  }
+
+.main-nav {
+  position: absolute;
+  left: 0;
+  font-family: "Apercu", Calibri, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #000;
+  font-size: .9em;
+  padding-top: .7em;
+  margin-top: 3em;
+}
+
+.main-nav ul {
+     list-style: none;
+   }
+
+.main-nav li {
+    float: left;
+    text-decoration: none;
+  }
+
+.main-nav li a {
+    display: block;
+    border: none;
+    padding: .5em;
+    text-decoration: none;
+    color: #000;
+   }
+
+.main-nav a:hover {
+    font-weight: bold;
+    color: #000;
+   }
+
+   .gift-glossier {
+     padding-top: 10em;
+
+   }
+
+   .gift-glossier .logo {
+     width: 7%;
+     margin-top: 2em;
+     margin-left: 8em;
+     position: absolute;
+   }
+
+   .gift-glossier .main {
+     position: relative;
+     margin-left: 10em;
+     z-index: -10;
+   }
+
+   .gift-glossier h4 {
+     position: absolute;
+     margin-left: 27em;
+     margin-top: -7em;
+     font-size: 2.5em;
+     font-family: "Apercu", Calibri, sans-serif;
+   }
+
+   .gift-glossier p {
+     position: absolute;
+     margin-left: 68em;
+     margin-top: -10em;
+     font-family: "Apercu", Calibri, sans-serif;
+   }
+
+   .gift-glossier a{
+    border: 1px solid #000;
+    padding: 1em 1.5em 1em 1.5em;
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    margin-left: 101em;
+    margin-top: -12em;
+   }
+
+   .gift-glossier a:hover {
+     color: blue;
+   }
+
+   .info {
+     width: 100%;
+     background-color:  #f9f7f1;
+   }
+
+.info h4 {
+  font-size: 3em;
+  font-family: "Apercu", Calibri, sans-serif;
+  text-align: center;
+  padding: 1em;
+}
+
+.info p {
+  font-family: "Apercu", Calibri, sans-serif;
+  text-align: center;
+  width: 60%;
+  margin-left: 15em;
+  margin-top: -7em;
+  padding-top: 1em;
+}
+
+.info img {
+  width: 10%;
+  margin-left: 35em;
+  padding-bottom: 3em;
+}
+
+.phase-1 .skincare {
+  width: 60%;
+  padding: 2em 4em 2em 2em;
+  float: right;
+}
+
+.phase-1 h4 {
+  font-family: "Apercu", Calibri, sans-serif;
+  margin-left: 5em;
+  padding-top: 1em;
+  font-size: 1.5em;
+  color: #000;
+  font-style: italic;
+}
+
+.phase-1 a {
+  text-decoration: none;
+}
+
+.phase-1 a:hover {
+  color: blue;
+}
+
+.phase-1 h2 {
+  font-family: "Freight Text Pro", Georgia, Times, Times New Roman, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2em;
+  margin-left: 3.3em;
+  margin-top: -1em;
+}
+
+.phase-1 p {
+  font-family: "Apercu", Calibri, sans-serif;
+  font-weight: lighter;
+  font-size: .85em;
+  text-align: left;
+  margin-left: 8.5em;
+  margin-top: -1em;
+}
+
+.phase-1 .inside {
+  padding-top: 1em;
+}
+
+.phase-1 li {
+  float: right;
+  text-decoration: none;
+  padding: 0;
+  margin-left: .2em;
+}
+
+.phase-1 .thumbnails img {
+  padding: .3em;
+  padding-bottom: 1em;
+}
+
+.phase-1 .btn {
+  background-color: #f5e3e7;
+  border-color: #f5e3e7;
+  padding: .5em 4em .5em 4em;
+  color: #000;
+  margin-left: 10.6em;
+}
+
+.phase-2 .makeup {
+  width: 60%;
+  padding: 2em 4em 2em 2em;
+  float: left;
+}
+
+
 
 
 /* ==========================================================================
