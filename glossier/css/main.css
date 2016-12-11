@@ -279,9 +279,9 @@ html {
 
 .phase-1 h4 {
   font-family: "Apercu", Calibri, sans-serif;
-  margin-left: 5em;
+  margin-left: 5.8em;
   padding-top: 1em;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #000;
   font-style: italic;
 }
@@ -323,6 +323,10 @@ html {
   margin-left: .2em;
 }
 
+.phase-1 ul {
+  list-style: none;
+}
+
 .phase-1 .thumbnails img {
   padding: .3em;
   padding-bottom: 1em;
@@ -342,8 +346,161 @@ html {
   float: left;
 }
 
+.phase-2 h4 {
+  font-family: "Apercu", Calibri, sans-serif;
+  float: right;
+  margin-right: 16.8em;
+  font-size: 1.2em;
+  color: #000;
+  font-style: italic;
+}
 
+.phase-2 a {
+  text-decoration: none;
+}
 
+.phase-2 a:hover {
+  color: blue;
+}
+
+.phase-2 h2 {
+  font-family: "Freight Text Pro", Georgia, Times, Times New Roman, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2em;
+  float: right;
+  margin-right: 7.2em;
+  margin-top:-1em;
+}
+
+.phase-2 p {
+  font-family: "Apercu", Calibri, sans-serif;
+  font-weight: lighter;
+  font-size: .85em;
+  text-align: left;
+  margin-left: 38em;
+}
+
+.phase-2 li {
+  float: right;
+  padding: 0;
+  margin-left: .2em;
+}
+
+.phase-2 .thumbnails {
+  margin-right: 14em;
+}
+
+.phase-2 ul {
+  list-style: none;
+}
+
+.phase-2 .thumbnails img {
+  padding: .3em;
+  padding-bottom: 1em;
+}
+
+.phase-2 .btn {
+  background-color: #f5e3e7;
+  border-color: #f5e3e7;
+  padding: .5em 4em .5em 4em;
+  color: #000;
+  margin-right: 10.6em;
+}
+
+.why {
+  background-color: #f5e3e7;
+  margin-top: 10em;
+
+}
+
+.why h2 {
+  font-size: 3em;
+  font-family: "Apercu", Calibri, sans-serif;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.why p {
+  font-family: "Apercu", Calibri, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  align-items: center;
+  float: right;
+  margin-right: 5em;
+  margin-top: -1em;
+}
+
+.why .left, .middle, .right {
+  width: 25%;
+  padding: 1em;
+}
+
+.main-footer {
+  clear: both;
+  margin-top: 10em;
+}
+
+.insta {
+  width: 100%;
+}
+
+.insta h1 {
+  text-align: center;
+  padding-top: 4em;
+  font-size: 3em;
+  font-family: "Apercu", Calibri, sans-serif;
+  color: black;
+}
+
+.insta a {
+  text-decoration: none;
+}
+
+.insta a:hover {
+  color: blue;
+}
+
+.insta h2 {
+  text-align: center;
+  font-family: "Apercu", Calibri, sans-serif;
+  font-size: 1em;
+  margin-top: -1em;
+}
+
+.insta img {
+  max-width: 100%;
+}
+
+.main-footer {
+  width: 100%;
+  border-top: .5px solid black;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.footer li {
+  float: left;
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer p {
+  align-items: center;
+  font-weight: bold;
+  font-family: "Apercu", Calibri, sans-serif;
+  padding: 1em;
+  margin-left: 3em;
+}
 
 /* ==========================================================================
    Helper classes
