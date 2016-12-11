@@ -103,6 +103,14 @@ html {
       box-sizing: inherit;
    }
 
+body {
+     max-width: 100em;
+     font-family: "Apercu", Calibri, sans-serif;
+     overflow: auto;
+   }
+
+/*Top Page header*/
+
 .page-header {
     margin: 0;
     background-color: #f3f6f6;
@@ -122,7 +130,6 @@ html {
 .page-header h4 {
     float: right;
     padding-right: 3em;
-    font-family: "Apercu", Calibri, sans-serif;
     font-style: normal;
     font-weight: 300;
     color: #000;
@@ -137,6 +144,8 @@ html {
     color: blue;
   }
 
+/*Top Nav*/
+
 .intro {
     position: fixed;
     width: 100%;
@@ -144,12 +153,11 @@ html {
 }
 
 .intro h1 {
-    position: fixed;
+    position: absolute;
     left: 44%;
     font-style: italic;
     font-size: 2.5em;
     padding-top: .7em;
-    font-family: "Apercu", Calibri, sans-serif;
   }
 
   .intro p {
@@ -157,22 +165,20 @@ html {
     position: relative;
     padding: .7em;
     margin-top: 4.5em;
-    font-family: "Apercu", Calibri, sans-serif;
     font-weight: bold;
     font-size: .8em;
     background-color: #f5e3e7;
   }
 
 .main-nav {
-  position: absolute;
-  left: 0;
-  font-family: "Apercu", Calibri, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  color: #000;
-  font-size: .9em;
-  padding-top: .7em;
-  margin-top: 3em;
+    position: absolute;
+    left: 0;
+    font-style: normal;
+    font-weight: 300;
+    color: #000;
+    font-size: .9em;
+    padding-top: .7em;
+    margin-top: 3em;
 }
 
 .main-nav ul {
@@ -197,40 +203,40 @@ html {
     color: #000;
    }
 
-   .gift-glossier {
-     padding-top: 10em;
+/*Main Photo*/
 
+.gift-glossier {
+    padding-top: 10em;
    }
 
-   .gift-glossier .logo {
-     width: 7%;
-     margin-top: 2em;
-     margin-left: 8em;
-     position: absolute;
+.gift-glossier .logo {
+    width: 7%;
+    margin-top: 2em;
+    margin-left: 8em;
+    position: absolute;
    }
 
-   .gift-glossier .main {
-     position: relative;
-     margin-left: 10em;
-     z-index: -10;
+.gift-glossier .main {
+    position: relative;
+    width: auto;
+    margin-left: 10em;
+    z-index: -10;
    }
 
-   .gift-glossier h4 {
-     position: absolute;
-     margin-left: 27em;
-     margin-top: -7em;
-     font-size: 2.5em;
-     font-family: "Apercu", Calibri, sans-serif;
+.gift-glossier h4 {
+    position: absolute;
+    margin-left: 27em;
+    margin-top: -7em;
+    font-size: 2.5em;
    }
 
-   .gift-glossier p {
-     position: absolute;
-     margin-left: 68em;
-     margin-top: -10em;
-     font-family: "Apercu", Calibri, sans-serif;
+.gift-glossier p {
+    position: absolute;
+    margin-left: 68em;
+    margin-top: -10em;
    }
 
-   .gift-glossier a{
+.gift-glossier a{
     border: 1px solid #000;
     padding: 1em 1.5em 1em 1.5em;
     text-decoration: none;
@@ -240,267 +246,194 @@ html {
     margin-top: -12em;
    }
 
-   .gift-glossier a:hover {
-     color: blue;
+.gift-glossier a:hover {
+    color: blue;
    }
 
-   .info {
-     width: 100%;
-     background-color:  #f9f7f1;
+/*Beauty In Real Life*/
+
+.info {
+    width: 100%;
+    background-color:  #f9f7f1;
    }
 
 .info h4 {
-  font-size: 3em;
-  font-family: "Apercu", Calibri, sans-serif;
-  text-align: center;
-  padding: 1em;
-}
+    font-size: 3em;
+    text-align: center;
+    padding: 1em;
+  }
 
 .info p {
-  font-family: "Apercu", Calibri, sans-serif;
-  text-align: center;
-  width: 60%;
-  margin-left: 15em;
-  margin-top: -7em;
-  padding-top: 1em;
-}
+    text-align: center;
+    width: 60%;
+    margin-left: 15em;
+    margin-top: -7em;
+    padding-top: 1em;
+  }
 
 .info img {
-  width: 10%;
-  margin-left: 35em;
-  padding-bottom: 3em;
-}
+    width: 10%;
+    margin-left: 35em;
+    padding-bottom: 3em;
+  }
+/*Skincare Basics*/
 
 .phase-1 .skincare {
-  width: 60%;
-  padding: 2em 4em 2em 2em;
-  float: right;
-}
+    width: 60%;
+    clear: both;
+    padding: 2em 4em 2em 2em;
+    float: right;
+  }
 
 .phase-1 h4 {
-  font-family: "Apercu", Calibri, sans-serif;
-  margin-left: 5.8em;
-  padding-top: 1em;
-  font-size: 1.2em;
-  color: #000;
-  font-style: italic;
-}
+    margin-left: 5.8em;
+    padding-top: 1em;
+    font-size: 1.2em;
+    color: #000;
+    font-style: italic;
+  }
 
 .phase-1 a {
-  text-decoration: none;
-}
+    text-decoration: none;
+  }
 
 .phase-1 a:hover {
-  color: blue;
-}
+    color: blue;
+  }
 
 .phase-1 h2 {
-  font-family: "Freight Text Pro", Georgia, Times, Times New Roman, serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2em;
-  margin-left: 3.3em;
-  margin-top: -1em;
-}
+    font-family: "Freight Text Pro", Georgia, Times, Times New Roman, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2em;
+    margin-left: 3.3em;
+    margin-top: -1em;
+  }
 
 .phase-1 p {
-  font-family: "Apercu", Calibri, sans-serif;
-  font-weight: lighter;
-  font-size: .85em;
-  text-align: left;
-  margin-left: 8.5em;
-  margin-top: -1em;
-}
+    font-weight: lighter;
+    font-size: .85em;
+    text-align: left;
+    padding-left: 7.5em;
+  }
 
 .phase-1 .inside {
-  padding-top: 1em;
-}
+    padding-top: 1em;
+  }
 
 .phase-1 li {
-  float: right;
-  text-decoration: none;
-  padding: 0;
-  margin-left: .2em;
-}
+    float: right;
+    text-decoration: none;
+    padding: 0;
+    margin-left: .2em;
+  }
 
 .phase-1 ul {
-  list-style: none;
-}
+    list-style: none;
+    float: left;
+    padding-left: 6em;
+  }
 
 .phase-1 .thumbnails img {
-  padding: .3em;
-  padding-bottom: 1em;
-}
+    padding: .3em;
+    padding-bottom: 1em;
+  }
 
 .phase-1 .btn {
-  background-color: #f5e3e7;
-  border-color: #f5e3e7;
-  padding: .5em 4em .5em 4em;
-  color: #000;
-  margin-left: 10.6em;
-}
+    background-color: #f5e3e7;
+    border-color: #f5e3e7;
+    padding: .5em 4em .5em 4em;
+    color: #000;
+    margin-left: 10.6em;
+  }
 
-.phase-2 .makeup {
-  width: 60%;
-  padding: 2em 4em 2em 2em;
-  float: left;
-}
-
-.phase-2 h4 {
-  font-family: "Apercu", Calibri, sans-serif;
-  float: right;
-  margin-right: 16.8em;
-  font-size: 1.2em;
-  color: #000;
-  font-style: italic;
-}
-
-.phase-2 a {
-  text-decoration: none;
-}
-
-.phase-2 a:hover {
-  color: blue;
-}
-
-.phase-2 h2 {
-  font-family: "Freight Text Pro", Georgia, Times, Times New Roman, serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2em;
-  float: right;
-  margin-right: 7.2em;
-  margin-top:-1em;
-}
-
-.phase-2 p {
-  font-family: "Apercu", Calibri, sans-serif;
-  font-weight: lighter;
-  font-size: .85em;
-  text-align: left;
-  margin-left: 38em;
-}
-
-.phase-2 li {
-  float: right;
-  padding: 0;
-  margin-left: .2em;
-}
-
-.phase-2 .thumbnails {
-  margin-right: 14em;
-}
-
-.phase-2 ul {
-  list-style: none;
-}
-
-.phase-2 .thumbnails img {
-  padding: .3em;
-  padding-bottom: 1em;
-}
-
-.phase-2 .btn {
-  background-color: #f5e3e7;
-  border-color: #f5e3e7;
-  padding: .5em 4em .5em 4em;
-  color: #000;
-  margin-right: 10.6em;
-}
-
+/*Why We Do What We Do*/
 .why {
-  background-color: #f5e3e7;
-  margin-top: 10em;
-
-}
+    background-color: #f5e3e7;
+    margin-top: 10em;
+    width: 100%;
+    text-align: center;
+  }
 
 .why h2 {
-  font-size: 3em;
-  font-family: "Apercu", Calibri, sans-serif;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 
 .why p {
-  font-family: "Apercu", Calibri, sans-serif;
-  font-weight: 300;
-  text-align: center;
-  align-items: center;
-  float: right;
-  margin-right: 5em;
-  margin-top: -1em;
-}
+    font-weight: 300;
+    align-items: center;
+    float: right;
+    margin-right: 5em;
+    margin-top: -1em;
+  }
 
 .why .left, .middle, .right {
-  width: 25%;
-  padding: 1em;
-}
-
-.main-footer {
-  clear: both;
-  margin-top: 10em;
-}
+    width: 25%;
+    padding: 1em;
+  }
 
 .insta {
-  width: 100%;
-}
+    width: 100%;
+  }
 
 .insta h1 {
-  text-align: center;
-  padding-top: 4em;
-  font-size: 3em;
-  font-family: "Apercu", Calibri, sans-serif;
-  color: black;
-}
+    text-align: center;
+    padding-top: 4em;
+    font-size: 3em;
+    color: black;
+  }
+
+/*Instagram*/
 
 .insta a {
-  text-decoration: none;
-}
+    text-decoration: none;
+  }
 
 .insta a:hover {
-  color: blue;
-}
+    color: blue;
+  }
 
 .insta h2 {
-  text-align: center;
-  font-family: "Apercu", Calibri, sans-serif;
-  font-size: 1em;
-  margin-top: -1em;
-}
+    text-align: center;
+    font-size: 1em;
+    margin-top: -1em;
+  }
 
 .insta img {
-  max-width: 100%;
-}
+    max-width: 100%;
+  }
+
+/*Page Fotoer*/
 
 .main-footer {
-  width: 100%;
-  border-top: .5px solid black;
-}
+    width: 100%;
+    margin-top: 5em;
+    border-top: .5px solid black;
+  }
 
 .footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 1em;
-}
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+  }
 
 .footer li {
-  float: left;
-  list-style: none;
-}
+    float: left;
+    list-style: none;
+  }
 
 .footer a {
-  text-decoration: none;
-  color: black;
-}
+    text-decoration: none;
+    color: black;
+  }
 
 .footer p {
-  align-items: center;
-  font-weight: bold;
-  font-family: "Apercu", Calibri, sans-serif;
-  padding: 1em;
-  margin-left: 3em;
-}
+    align-items: center;
+    font-weight: bold;
+    padding: 1em;
+  }
 
 /* ==========================================================================
    Helper classes
